@@ -1,16 +1,20 @@
 <template>
   <div id="app">
-    <ListWithDialog />
+    <p>
+      <router-link to="/dialog">dialog</router-link>
+    </p>
+    <p>
+      <router-link to="/table">table</router-link>
+    </p>
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
-import ListWithDialog from './components/list-with-dialog.vue'
 
 export default {
   name: 'app',
   components: {
-    ListWithDialog
   }
 }
 </script>
