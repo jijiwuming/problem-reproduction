@@ -7,4 +7,8 @@ export const routes = [
     path: "/table",
     component: () => import("./components/table.vue"),
   },
+  {
+    path: "/tableFixed",
+    component: () => import("./components/table-fixed.vue"),
+  },
 ];

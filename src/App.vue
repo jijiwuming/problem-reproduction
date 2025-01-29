@@ -6,6 +6,9 @@
     <p>
       <router-link to="/table">table</router-link>
     </p>
+    <p>
+      <router-link to="/tableFixed">table修复版</router-link>
+    </p>
     <router-view></router-view>
   </div>
 </template>

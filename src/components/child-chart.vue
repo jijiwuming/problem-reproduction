@@ -16,6 +16,7 @@ export default {
       this.text = "旧的不去";
     },
     showChart() {
+      this.text = "旧的不去";
       return new Promise((resolve) => {
         setTimeout(() => {
           this.text = "新的不来";
